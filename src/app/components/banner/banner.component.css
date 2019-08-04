@@ -1,0 +1,32 @@
+section {
+  background: linear-gradient(
+    36deg,
+    rgb(49, 69, 107),
+    rgb(224, 134, 82),
+    rgb(49, 69, 107)
+  );
+  height: 600px;
+}
+h4 {
+  color: white;
+  font-family: sans-serif;
+  font-size: 40px;
+  font-weight: 100;
+  letter-spacing: -1px;
+  line-height: 1;
+  text-align: center;
+}
+h6 {
+  color: white;
+  font-family: sans-serif;
+  font-size: 25px;
+  font-weight: 100;
+  letter-spacing: -1px;
+  line-height: 1;
+  text-align: center;
+}
+
+button{
+  text-align: center;
+
+}
