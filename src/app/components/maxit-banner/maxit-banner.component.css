@@ -1,0 +1,33 @@
+.banner-img{
+    background: url('../../../assets/img/banner/home-banner.jpg');
+    height: 900px;
+    width:100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner-content{
+    position: absolute;
+    left: 15%;
+    top: 30%
+    
+}
+
+.banner-content h1{
+    color: white;
+    font-size: 30px;
+    font-weight: bold
+}
+.banner-content p{
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+}
+.banner-content button{
+    background-color: #a7cb00;
+    border-radius: 5px;
+    height: 45px;
+    width: 130px;
+    color: white;
+    font-weight: 600;
+}
