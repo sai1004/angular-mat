@@ -13,6 +13,11 @@ import { SharedModule } from "./shared/shared.module";
 import { NavComponent } from './components/nav/nav.component';
 import { WelcomeComponent } from './pages/welcome/welcome.component';
 import { BannerComponent } from './components/banner/banner.component';
+import { MaxitLandingPageComponent } from './pages/maxit-landing-page/maxit-landing-page.component';
+import { MaxitBannerComponent } from './components/maxit-banner/maxit-banner.component';
+import { MaxitNavComponent } from './components/maxit-nav/maxit-nav.component';
+import { MaxitFooterComponent } from './components/maxit-footer/maxit-footer.component';
+import { MaxitDesignComponent } from './components/maxit-design/maxit-design.component';
 
 // import { CartItemService } from './components/cart-item.service';
  
@@ -23,6 +28,11 @@ import { BannerComponent } from './components/banner/banner.component';
     NavComponent,
     WelcomeComponent,
     BannerComponent,
+    MaxitLandingPageComponent,
+    MaxitBannerComponent,
+    MaxitNavComponent,
+    MaxitFooterComponent,
+    MaxitDesignComponent,
  
   ],
   imports: [
