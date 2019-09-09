@@ -1,0 +1,22 @@
+.content {
+  padding-bottom: 20px;
+}
+.content h1 {
+  font-size: 37px;
+  font-weight: bolder;
+  font-family: sans-serif;
+  line-height: 30px;
+}
+
+mat-card {
+  height: 180px;
+  width: 500px;
+  border: 1px solid #eeeeee;
+  border-radius: 10px;
+}
+mat-card:hover {
+  box-shadow: -2px 3px 21px -5px rgba(0, 0, 0, 0.75);
+}
+.card-body{
+    padding: 30px;
+}
