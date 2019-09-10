@@ -1,11 +1,54 @@
 section{
     background-color: #000410;
     color: white;
-    padding-top: 35px ;
-    padding-bottom: 35px;
+    padding-top: 100px ;
+    padding-bottom: 100px;
 }
 section h6{
     text-align: center;
     font-size: 18px;
     font-weight: 300;
+}
+
+h2{
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    
+}
+
+p{
+    font-size: 16px;
+    line-height: 26px;
+    font-family: "Roboto", sans-serif;
+    color: #777777;
+    margin-bottom: 30px;
+}
+
+input{
+    height: 30px;
+    width: 320px;
+    background: transparent;
+    border: 1px solid #777777;
+    outline: none;
+    color: #777777;
+    
+}
+button{
+    height: 33px;
+    background-color: #a7cb00;
+    outline: none;
+    border: none;
+    position: relative;
+    top: 6px;
+    right: 35px;
+    cursor: pointer;
+}
+
+a{
+    padding: 10px;
+    color: #fff;
+}
+
+a:hover{
+    color: #a7cb00;
 }

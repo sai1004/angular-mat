@@ -22,6 +22,7 @@ import { MaxitClientOfferComponent } from './components/maxit-client-offer/maxit
 import { MaxitCarouselComponent } from './components/maxit-carousel/maxit-carousel.component';
 import { MaxitPremiumComponent } from './components/maxit-premium/maxit-premium.component';
 import { MaxitRecentBlogComponent } from './components/maxit-recent-blog/maxit-recent-blog.component';
+import { MaxitProjectsComponent } from './components/maxit-projects/maxit-projects.component';
 
 // import { CartItemService } from './components/cart-item.service';
  
@@ -41,6 +42,7 @@ import { MaxitRecentBlogComponent } from './components/maxit-recent-blog/maxit-r
     MaxitCarouselComponent,
     MaxitPremiumComponent,
     MaxitRecentBlogComponent,
+    MaxitProjectsComponent,
  
   ],
   imports: [

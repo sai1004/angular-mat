@@ -1,5 +1,5 @@
 <section>
-  <div fxLayout="row wrap" fxLayoutAlign="space-evenly center">
+  <div fxLayout="row wrap" fxLayoutAlign="center center" fxLayoutGap="100px">
     <div class="about">
       <h2>ABOUT ME</h2>
       <p>
@@ -11,11 +11,30 @@
     <div class="news-letter">
       <h2>NEWSLETTER</h2>
       <p>Stay updated with our latest trends</p>
-      <input mat-input type="text" />
+      <input mat-input type="text" placeholder="Email Address" />
+      <button>
+        <i class="material-icons" style="color: white">
+          arrow_right_alt
+        </i>
+      </button>
     </div>
     <div class="social-icons">
       <h2>FOLLOW ME</h2>
       <p>Let us be social</p>
+      <div class="icons" fxLayout="row">
+        <a href="#" class="twitter">
+          <i class="fa fa-twitter"> </i>
+        </a>
+        <a href="#" class="facebook">
+          <i class="fa fa-facebook "> </i>
+        </a>
+        <a href="#" class="instagram">
+          <i class="fa fa-instagram"> </i>
+        </a>
+        <a href="#" class="linkedin">
+          <i class="fa fa-linkedin"> </i>
+        </a>
+      </div>
     </div>
   </div>
 
