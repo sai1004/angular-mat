@@ -20,6 +20,8 @@ import { MaxitFooterComponent } from './components/maxit-footer/maxit-footer.com
 import { MaxitDesignComponent } from './components/maxit-design/maxit-design.component';
 import { MaxitClientOfferComponent } from './components/maxit-client-offer/maxit-client-offer.component';
 import { MaxitCarouselComponent } from './components/maxit-carousel/maxit-carousel.component';
+import { MaxitPremiumComponent } from './components/maxit-premium/maxit-premium.component';
+import { MaxitRecentBlogComponent } from './components/maxit-recent-blog/maxit-recent-blog.component';
 
 // import { CartItemService } from './components/cart-item.service';
  
@@ -37,6 +39,8 @@ import { MaxitCarouselComponent } from './components/maxit-carousel/maxit-carous
     MaxitDesignComponent,
     MaxitClientOfferComponent,
     MaxitCarouselComponent,
+    MaxitPremiumComponent,
+    MaxitRecentBlogComponent,
  
   ],
   imports: [

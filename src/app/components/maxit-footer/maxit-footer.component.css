@@ -1,0 +1,11 @@
+section{
+    background-color: #000410;
+    color: white;
+    padding-top: 35px ;
+    padding-bottom: 35px;
+}
+section h6{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 300;
+}
