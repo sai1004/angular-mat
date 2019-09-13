@@ -1,15 +1,19 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit } from "@angular/core";
 
 @Component({
-  selector: 'app-maxit-nav',
-  templateUrl: './maxit-nav.component.html',
-  styleUrls: ['./maxit-nav.component.css']
+  selector: "app-maxit-nav",
+  templateUrl: "./maxit-nav.component.html",
+  styleUrls: ["./maxit-nav.component.css"]
 })
 export class MaxitNavComponent implements OnInit {
+  isCollapsed: boolean;
 
-  constructor() { }
-
-  ngOnInit() {
+  navCollapse() {
+    this.isCollapsed = !this.isCollapsed;
+    
   }
+  constructor() {}
 
+  
+  ngOnInit() {}
 }

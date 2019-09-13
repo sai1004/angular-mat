@@ -1,1 +1,55 @@
-<p>maxit-nav works!</p>
+<mat-toolbar
+  [ngStyle.sm]="{ 'background-color': '#a7cb00' }"
+  [ngStyle.xs]="{ 'background-color': '#a7cb00' }"
+>
+  <span class="logo">
+    <h3>Maxitechture</h3>
+  </span>
+  <span class="example-fill-remaining-space"></span>
+
+  <div fxShow="true" fxHide.gt-sm="true">
+    <button
+      mat-icon-button
+      (click)="sidenav.toggle()"
+      [ngStyle.sm]="{ 'background-color': '#a7cb00' }"
+      [ngStyle.xs]="{ 'background-color': '#a7cb00' }"
+    >
+      <mat-icon style="color: white">menu</mat-icon>
+    </button>
+  </div>
+
+  <span class="nav-options" fxHide.sm fxHide.xs>
+    <a mat-button routerLink="/"> HOME </a>
+    <a mat-button routerLink="/max-about"> ABOUT </a>
+    <a mat-button routerLink="/max-work"> WORK </a>
+    <a mat-button routerLink="/max-service"> SERVICES </a>
+    <a mat-button routerLink="/max-pages"> PAGES </a>
+    <a mat-button routerLink="/max-blog"> BLOG </a>
+    <a mat-button routerLink="/max-contact"> CONTACT </a>
+  </span>
+</mat-toolbar>
+
+<mat-sidenav-container fxFlexFill>
+  <mat-sidenav #sidenav mode="over" opened="false" fxHide.gt-sm="true">
+    <div fxLayout="column">
+      <a mat-button> HOME </a>
+      <mat-divider></mat-divider>
+      <a mat-button> ABOUT </a>
+      <mat-divider></mat-divider>
+
+      <a mat-button> WORK </a>
+      <mat-divider></mat-divider>
+
+      <a mat-button> SERVICES </a>
+      <mat-divider></mat-divider>
+
+      <a mat-button> PAGES </a>
+      <mat-divider></mat-divider>
+
+      <a mat-button> BLOG </a>
+      <mat-divider></mat-divider>
+
+      <a mat-button> CONTACT </a>
+    </div>
+  </mat-sidenav>
+</mat-sidenav-container>
