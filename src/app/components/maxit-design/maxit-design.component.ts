@@ -6,7 +6,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./maxit-design.component.css']
 })
 export class MaxitDesignComponent implements OnInit {
+  
 
+  email: string = "Aman@gmail.com";
+  updateName(input: string) {
+      this.email = input;
+  }
   constructor() { }
 
   ngOnInit() {

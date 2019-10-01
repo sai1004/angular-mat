@@ -8,13 +8,18 @@
   color: white;
 }
 
-h3{
-    font-size: 26px !important;
+h3 {
+  font-size: 26px !important;
 }
 
 a {
   text-decoration: none;
   color: white;
+}
+
+a:hover{
+  border-bottom: solid 2px;
+  border-bottom-color: #a7cb00;
 }
 mat-divider {
   color: white;
@@ -23,12 +28,17 @@ mat-divider {
 mat-sidenav-container {
   max-height: 100vh;
   width: 100%;
- 
 }
 
 mat-sidenav {
   max-height: 30vh;
   width: 100%;
- 
+
   background-color: #a7cb00;
+}
+
+.menu-icon:hover {
+  box-shadow: 0 10px 6px 0 rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+  /* background-color: red; */
 }
