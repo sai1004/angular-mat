@@ -1,0 +1,22 @@
+.img-icon{
+    margin: 20px;
+    /* height: 10px; */
+    /* float: left; */
+}
+
+.content{
+    /* float: right; */
+}
+
+.content h3{
+
+    line-height: 26px;
+    font-family: sans-serif;
+
+}
+
+
+.content p{
+    line-height: 24px;
+    font-family: sans-serif;
+}

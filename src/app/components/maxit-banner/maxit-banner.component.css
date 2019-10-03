@@ -1,26 +1,16 @@
-.card {
-  height: 400px;
-  width: 350px;
-  box-shadow: 0 5px 5px 5px rgba(0, 0, 0, 0.5);
-  background-color: whitesmoke;
-  margin: 10px;
-  border-top-left-radius: 30px;
-  border-bottom-right-radius: 30px;
-}
-
-.cards {
-  /* display: flex;
-  justify-content: space-around center;
-  align-items: center;
+/* .what-makes-us-section {
+  display: flex;
   flex-direction: row;
-  flex-wrap: wrap; */
-  display: grid;
-  
-  grid-gap: 2px;
-  /* Space between items */
-  grid-template-columns: repeat(3, 1fr);
 }
 
+.what-makes-img {
+  height: 400px;
+  width: 50%;
+}
+.what-makes-content {
+  height: 400px;
+  width: 50%;
+} */
 /* .banner-img{
     background: url('../../../assets/img/banner/home-banner.jpg');
     height: 860px;

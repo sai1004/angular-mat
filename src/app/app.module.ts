@@ -24,6 +24,8 @@ import { MaxitPremiumComponent } from './components/maxit-premium/maxit-premium.
 import { MaxitRecentBlogComponent } from './components/maxit-recent-blog/maxit-recent-blog.component';
 import { MaxitProjectsComponent } from './components/maxit-projects/maxit-projects.component';
 import { MaxitAboutPageComponent } from './pages/maxit-about-page/maxit-about-page.component';
+import { MaxitTestComponent } from './components/maxit-test/maxit-test.component';
+import { MaxitTestRightComponent } from './components/maxit-test-right/maxit-test-right.component';
 
 // import { CartItemService } from './components/cart-item.service';
  
@@ -44,7 +46,9 @@ import { MaxitAboutPageComponent } from './pages/maxit-about-page/maxit-about-pa
     MaxitPremiumComponent,
     MaxitRecentBlogComponent,
     MaxitProjectsComponent,
-    MaxitAboutPageComponent
+    MaxitAboutPageComponent,
+    MaxitTestComponent,
+    MaxitTestRightComponent
  
   ],
   imports: [
